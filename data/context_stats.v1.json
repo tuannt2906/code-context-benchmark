@@ -1,0 +1,299 @@
+[
+  {
+    "strategy": "none",
+    "budget": null,
+    "context_recall": 0.0,
+    "context_recall_soft": 0.0,
+    "context_recall_L3_L5": 0.0,
+    "full_recall_rate": 0.0,
+    "est_tokens": 0.0
+  },
+  {
+    "strategy": "oracle",
+    "budget": null,
+    "context_recall": 1.0,
+    "context_recall_soft": 1.0,
+    "context_recall_L3_L5": 1.0,
+    "full_recall_rate": 1.0,
+    "est_tokens": 982.4375
+  },
+  {
+    "strategy": "full",
+    "budget": null,
+    "context_recall": 1.0,
+    "context_recall_soft": 1.0,
+    "context_recall_L3_L5": 1.0,
+    "full_recall_rate": 1.0,
+    "est_tokens": 26320.0
+  },
+  {
+    "strategy": "full",
+    "budget": 2000,
+    "context_recall": 0.06299271475052726,
+    "context_recall_soft": 0.06299271475052726,
+    "context_recall_L3_L5": 0.0934520425374084,
+    "full_recall_rate": 0.0,
+    "est_tokens": 1972.0
+  },
+  {
+    "strategy": "full",
+    "budget": 4000,
+    "context_recall": 0.1296465903887779,
+    "context_recall_soft": 0.1296465903887779,
+    "context_recall_L3_L5": 0.15115565328979963,
+    "full_recall_rate": 0.015625,
+    "est_tokens": 3862.0
+  },
+  {
+    "strategy": "full",
+    "budget": 8000,
+    "context_recall": 0.32453121964840714,
+    "context_recall_soft": 0.32453121964840714,
+    "context_recall_L3_L5": 0.38178857050808274,
+    "full_recall_rate": 0.046875,
+    "est_tokens": 7978.0
+  },
+  {
+    "strategy": "full",
+    "budget": 16000,
+    "context_recall": 0.5787182435619936,
+    "context_recall_soft": 0.5787182435619936,
+    "context_recall_L3_L5": 0.5887309167796974,
+    "full_recall_rate": 0.28125,
+    "est_tokens": 15982.0
+  },
+  {
+    "strategy": "fixed",
+    "budget": 2000,
+    "context_recall": 0.04813582684676435,
+    "context_recall_soft": 0.04813582684676435,
+    "context_recall_L3_L5": 0.05522015247625004,
+    "full_recall_rate": 0.0,
+    "est_tokens": 1942.0
+  },
+  {
+    "strategy": "fixed",
+    "budget": 4000,
+    "context_recall": 0.18574964531995783,
+    "context_recall_soft": 0.18574964531995783,
+    "context_recall_L3_L5": 0.26515391789782033,
+    "full_recall_rate": 0.015625,
+    "est_tokens": 3694.0
+  },
+  {
+    "strategy": "fixed",
+    "budget": 8000,
+    "context_recall": 0.3367189451173826,
+    "context_recall_soft": 0.3367189451173826,
+    "context_recall_L3_L5": 0.43374014197184935,
+    "full_recall_rate": 0.078125,
+    "est_tokens": 6870.0
+  },
+  {
+    "strategy": "fixed",
+    "budget": 16000,
+    "context_recall": 0.3367189451173826,
+    "context_recall_soft": 0.3367189451173826,
+    "context_recall_L3_L5": 0.43374014197184935,
+    "full_recall_rate": 0.078125,
+    "est_tokens": 6870.0
+  },
+  {
+    "strategy": "bm25",
+    "budget": 2000,
+    "context_recall": 0.4437495664058164,
+    "context_recall_soft": 0.4437495664058164,
+    "context_recall_L3_L5": 0.23861720934891667,
+    "full_recall_rate": 0.203125,
+    "est_tokens": 1969.625
+  },
+  {
+    "strategy": "bm25",
+    "budget": 4000,
+    "context_recall": 0.5972778740356866,
+    "context_recall_soft": 0.5972778740356866,
+    "context_recall_L3_L5": 0.41648253508009614,
+    "full_recall_rate": 0.3125,
+    "est_tokens": 3949.0
+  },
+  {
+    "strategy": "bm25",
+    "budget": 8000,
+    "context_recall": 0.7495181034243535,
+    "context_recall_soft": 0.7495181034243535,
+    "context_recall_L3_L5": 0.6236380151014296,
+    "full_recall_rate": 0.453125,
+    "est_tokens": 7906.46875
+  },
+  {
+    "strategy": "bm25",
+    "budget": 16000,
+    "context_recall": 0.8945163560397935,
+    "context_recall_soft": 0.8945163560397935,
+    "context_recall_L3_L5": 0.8499767508913852,
+    "full_recall_rate": 0.609375,
+    "est_tokens": 15801.78125
+  },
+  {
+    "strategy": "bm25_namegraph",
+    "budget": 2000,
+    "context_recall": 0.45768439459845706,
+    "context_recall_soft": 0.45768439459845706,
+    "context_recall_L3_L5": 0.21158864847889236,
+    "full_recall_rate": 0.234375,
+    "est_tokens": 1967.796875
+  },
+  {
+    "strategy": "bm25_namegraph",
+    "budget": 4000,
+    "context_recall": 0.6086272017912643,
+    "context_recall_soft": 0.6086272017912643,
+    "context_recall_L3_L5": 0.4069627865359573,
+    "full_recall_rate": 0.328125,
+    "est_tokens": 3946.46875
+  },
+  {
+    "strategy": "bm25_namegraph",
+    "budget": 8000,
+    "context_recall": 0.7708118487415363,
+    "context_recall_soft": 0.7708118487415363,
+    "context_recall_L3_L5": 0.6471209346209346,
+    "full_recall_rate": 0.484375,
+    "est_tokens": 7903.015625
+  },
+  {
+    "strategy": "bm25_namegraph",
+    "budget": 16000,
+    "context_recall": 0.9099782379079253,
+    "context_recall_soft": 0.9099782379079253,
+    "context_recall_L3_L5": 0.8643562738074935,
+    "full_recall_rate": 0.640625,
+    "est_tokens": 15801.265625
+  },
+  {
+    "strategy": "dgc",
+    "budget": 2000,
+    "context_recall": 0.6388840109543236,
+    "context_recall_soft": 0.6441667490495617,
+    "context_recall_L3_L5": 0.4769571553108138,
+    "full_recall_rate": 0.40625,
+    "est_tokens": 1968.125
+  },
+  {
+    "strategy": "dgc",
+    "budget": 4000,
+    "context_recall": 0.7476920215201465,
+    "context_recall_soft": 0.751487228049728,
+    "context_recall_L3_L5": 0.6191615295273833,
+    "full_recall_rate": 0.4375,
+    "est_tokens": 3944.75
+  },
+  {
+    "strategy": "dgc",
+    "budget": 8000,
+    "context_recall": 0.8611010734057607,
+    "context_recall_soft": 0.8633738006784879,
+    "context_recall_L3_L5": 0.7831821633650904,
+    "full_recall_rate": 0.546875,
+    "est_tokens": 7900.453125
+  },
+  {
+    "strategy": "dgc",
+    "budget": 16000,
+    "context_recall": 0.9614845441017315,
+    "context_recall_soft": 0.9614845441017315,
+    "context_recall_L3_L5": 0.9398783127441663,
+    "full_recall_rate": 0.8125,
+    "est_tokens": 15801.6875
+  },
+  {
+    "strategy": "dgc_no_dispatch",
+    "budget": 4000,
+    "context_recall": 0.7218803332084585,
+    "context_recall_soft": 0.7245594683094685,
+    "context_recall_L3_L5": 0.5857806827319023,
+    "full_recall_rate": 0.40625,
+    "est_tokens": 3944.734375
+  },
+  {
+    "strategy": "dgc_no_dispatch",
+    "budget": 8000,
+    "context_recall": 0.8160045683483184,
+    "context_recall_soft": 0.8164928495983184,
+    "context_recall_L3_L5": 0.7278282692916839,
+    "full_recall_rate": 0.515625,
+    "est_tokens": 7896.65625
+  },
+  {
+    "strategy": "dgc_no_expansion",
+    "budget": 4000,
+    "context_recall": 0.6842851159257411,
+    "context_recall_soft": 0.68608458598693,
+    "context_recall_L3_L5": 0.5636808313637581,
+    "full_recall_rate": 0.359375,
+    "est_tokens": 3947.71875
+  },
+  {
+    "strategy": "dgc_no_expansion",
+    "budget": 8000,
+    "context_recall": 0.8328328355672104,
+    "context_recall_soft": 0.8332668633449882,
+    "context_recall_L3_L5": 0.7536902799097921,
+    "full_recall_rate": 0.5,
+    "est_tokens": 7906.21875
+  },
+  {
+    "strategy": "dgc_no_ranking",
+    "budget": 4000,
+    "context_recall": 0.24170963585026087,
+    "context_recall_soft": 0.250774984564047,
+    "context_recall_L3_L5": 0.2622621957987812,
+    "full_recall_rate": 0.046875,
+    "est_tokens": 3945.1875
+  },
+  {
+    "strategy": "dgc_no_ranking",
+    "budget": 8000,
+    "context_recall": 0.3879376049297924,
+    "context_recall_soft": 0.3895001049297924,
+    "context_recall_L3_L5": 0.4059676434676434,
+    "full_recall_rate": 0.109375,
+    "est_tokens": 7886.5
+  },
+  {
+    "strategy": "dgc_no_skeleton",
+    "budget": 4000,
+    "context_recall": 0.7557096982878233,
+    "context_recall_soft": 0.7557096982878233,
+    "context_recall_L3_L5": 0.6316769274086349,
+    "full_recall_rate": 0.4375,
+    "est_tokens": 3944.5
+  },
+  {
+    "strategy": "dgc_no_skeleton",
+    "budget": 8000,
+    "context_recall": 0.8611010734057607,
+    "context_recall_soft": 0.8611010734057607,
+    "context_recall_L3_L5": 0.7831821633650904,
+    "full_recall_rate": 0.546875,
+    "est_tokens": 7899.5
+  },
+  {
+    "strategy": "dgc_no_reverse",
+    "budget": 4000,
+    "context_recall": 0.6971768249112,
+    "context_recall_soft": 0.7012162425248364,
+    "context_recall_L3_L5": 0.5354304909182956,
+    "full_recall_rate": 0.40625,
+    "est_tokens": 3944.671875
+  },
+  {
+    "strategy": "dgc_no_reverse",
+    "budget": 8000,
+    "context_recall": 0.8731171606171604,
+    "context_recall_soft": 0.8738273878898877,
+    "context_recall_L3_L5": 0.8019389824267873,
+    "full_recall_rate": 0.59375,
+    "est_tokens": 7897.0625
+  }
+]

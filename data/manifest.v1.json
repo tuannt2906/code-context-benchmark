@@ -1,0 +1,18 @@
+{
+  "dataset_version": "v1",
+  "n_items": 64,
+  "by_level": {
+    "L1": 13,
+    "L2": 10,
+    "L3": 13,
+    "L4": 12,
+    "L5": 16
+  },
+  "n_indirect": 40,
+  "n_lookalike": 29,
+  "fixture_hash": "8da947b42b62564d",
+  "fixture_units": 278,
+  "fixture_est_tokens": 25177,
+  "dataset_sha256": "5e550060fea81413",
+  "warnings": []
+}
