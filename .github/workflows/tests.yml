@@ -9,8 +9,10 @@ jobs:
   test:
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
-        python-version: ["3.9", "3.12"]
+        # Python 3.9 is no longer shipped for ubuntu-latest runners; 3.9 is verified locally (all results were produced on 3.9.6)
+        python-version: ["3.10", "3.13"]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
