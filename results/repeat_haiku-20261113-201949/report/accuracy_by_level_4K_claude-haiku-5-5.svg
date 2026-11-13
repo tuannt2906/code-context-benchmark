@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 420" font-family="system-ui, sans-serif" font-size="12">
+<rect width="100%" height="100%" fill="#fcfcfb"/>
+<text x="60" y="24" font-size="15" font-weight="600" fill="#0b0b0b">Accuracy by difficulty level at 4K budget - claude-haiku-5-5</text>
+<line x1="60" x2="760" y1="320.0" y2="320.0" stroke="#e4e3df"/>
+<text x="52" y="324.0" text-anchor="end" fill="#52514e">0%</text>
+<line x1="60" x2="760" y1="265.6" y2="265.6" stroke="#e4e3df"/>
+<text x="52" y="269.6" text-anchor="end" fill="#52514e">20%</text>
+<line x1="60" x2="760" y1="211.2" y2="211.2" stroke="#e4e3df"/>
+<text x="52" y="215.2" text-anchor="end" fill="#52514e">40%</text>
+<line x1="60" x2="760" y1="156.8" y2="156.8" stroke="#e4e3df"/>
+<text x="52" y="160.8" text-anchor="end" fill="#52514e">60%</text>
+<line x1="60" x2="760" y1="102.4" y2="102.4" stroke="#e4e3df"/>
+<text x="52" y="106.4" text-anchor="end" fill="#52514e">80%</text>
+<line x1="60" x2="760" y1="48.0" y2="48.0" stroke="#e4e3df"/>
+<text x="52" y="52.0" text-anchor="end" fill="#52514e">100%</text>
+<path d="M106.0 320.0 V52.0 Q106.0 48.0 110.0 48.0 H124.0 Q128.0 48.0 128.0 52.0 V320.0 Z" fill="#2a78d6"><title>L1 / E5 DGC (proposed): 100.0%</title></path>
+<path d="M130.0 320.0 V52.0 Q130.0 48.0 134.0 48.0 H148.0 Q152.0 48.0 152.0 52.0 V320.0 Z" fill="#eb6834"><title>L1 / E4 BM25: 100.0%</title></path>
+<text x="130.0" y="338" text-anchor="middle" fill="#52514e">L1</text>
+<path d="M246.0 320.0 V79.2 Q246.0 75.2 250.0 75.2 H264.0 Q268.0 75.2 268.0 79.2 V320.0 Z" fill="#2a78d6"><title>L2 / E5 DGC (proposed): 90.0%</title></path>
+<path d="M270.0 320.0 V79.2 Q270.0 75.2 274.0 75.2 H288.0 Q292.0 75.2 292.0 79.2 V320.0 Z" fill="#eb6834"><title>L2 / E4 BM25: 90.0%</title></path>
+<text x="270.0" y="338" text-anchor="middle" fill="#52514e">L2</text>
+<path d="M386.0 320.0 V240.3 Q386.0 236.3 390.0 236.3 H404.0 Q408.0 236.3 408.0 240.3 V320.0 Z" fill="#2a78d6"><title>L3 / E5 DGC (proposed): 30.8%</title></path>
+<path d="M410.0 320.0 V191.5 Q410.0 187.5 414.0 187.5 H428.0 Q432.0 187.5 432.0 191.5 V320.0 Z" fill="#eb6834"><title>L3 / E4 BM25: 48.7%</title></path>
+<text x="410.0" y="338" text-anchor="middle" fill="#52514e">L3</text>
+<path d="M526.0 320.0 V320.0 Q526.0 320.0 530.0 320.0 H544.0 Q548.0 320.0 548.0 320.0 V320.0 Z" fill="#2a78d6"><title>L4 / E5 DGC (proposed): 0.0%</title></path>
+<path d="M550.0 320.0 V301.3 Q550.0 297.3 554.0 297.3 H568.0 Q572.0 297.3 572.0 301.3 V320.0 Z" fill="#eb6834"><title>L4 / E4 BM25: 8.3%</title></path>
+<text x="550.0" y="338" text-anchor="middle" fill="#52514e">L4</text>
+<path d="M666.0 320.0 V131.3 Q666.0 127.3 670.0 127.3 H684.0 Q688.0 127.3 688.0 131.3 V320.0 Z" fill="#2a78d6"><title>L5 / E5 DGC (proposed): 70.8%</title></path>
+<path d="M690.0 320.0 V176.7 Q690.0 172.7 694.0 172.7 H708.0 Q712.0 172.7 712.0 176.7 V320.0 Z" fill="#eb6834"><title>L5 / E4 BM25: 54.2%</title></path>
+<text x="690.0" y="338" text-anchor="middle" fill="#52514e">L5</text>
+<rect x="60" y="360" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="78" y="370" fill="#0b0b0b">E5 DGC (proposed)</text>
+<rect x="205" y="360" width="12" height="12" rx="3" fill="#eb6834"/>
+<text x="223" y="370" fill="#0b0b0b">E4 BM25</text>
+<text transform="translate(16,184) rotate(-90)" text-anchor="middle" fill="#52514e">Accuracy</text>
+</svg>

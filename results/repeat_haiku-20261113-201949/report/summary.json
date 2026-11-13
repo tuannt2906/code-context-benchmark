@@ -1,0 +1,193 @@
+{
+  "experiment": "repeat_haiku-20261113-201949",
+  "provenance": {
+    "ccbench_version": "1.0.0",
+    "prompt_version": "p1",
+    "dataset_version": "v1",
+    "dataset_sha256": "5e550060fea81413",
+    "fixture_hash": "8da947b42b62564d",
+    "repo_git_commit": null,
+    "chars_per_token_estimate": 2.35,
+    "python": "3.9.6",
+    "platform": "macOS-13.7.8-x86_64-i386-64bit",
+    "providers": {
+      "claude-haiku-5-5": {
+        "model": "haiku",
+        "temperature": null,
+        "seed": null,
+        "unsupported": [
+          "temperature",
+          "seed"
+        ],
+        "effort": null
+      }
+    },
+    "n_items": 64
+  },
+  "cells": [
+    {
+      "model": "claude-haiku-5-5",
+      "strategy": "bm25",
+      "budget": 4000,
+      "n_jobs": 192,
+      "n_ok": 192,
+      "n_items": 64,
+      "success_rate": 1.0,
+      "accuracy": 0.59375,
+      "acc_ci_lo": 0.5231001126508305,
+      "acc_ci_hi": 0.6607219149469833,
+      "acc_repeat_mean": 0.59375,
+      "acc_repeat_sd": 0.015625,
+      "n_repeats": 3,
+      "set_f1": 0.7110119047619047,
+      "evidence_precision": 0.7143229166666668,
+      "evidence_recall": 0.5009997959216709,
+      "context_recall": 0.5972778740356869,
+      "context_recall_soft": 0.5972778740356869,
+      "context_recall_trace": 0.43237708421842586,
+      "context_est_tokens": 3949.0,
+      "prompt_est_tokens": 4730.21875,
+      "input_tokens": 5153.78125,
+      "output_tokens": 786.1822916666666,
+      "latency_mean_s": 5.10878125,
+      "latency_sd_s": 2.8698311558160827,
+      "cost_total_usd": 0.10703120999999997,
+      "cost_per_task_usd": 0.0005574542187499999,
+      "cost_per_correct_usd": 0.0009388702631578945,
+      "distractor_rate_lookalike": 0.034482758620689655,
+      "acc_L1": 1.0,
+      "acc_L2": 0.9,
+      "acc_L3": 0.48717948717948717,
+      "acc_L4": 0.08333333333333333,
+      "acc_L5": 0.5416666666666666,
+      "acc_indirect": 0.375,
+      "acc_lookalike": 0.5977011494252874,
+      "n_correct": 114,
+      "n_distractor_confusion": 3,
+      "n_missing_evidence": 73,
+      "n_use_failure": 2,
+      "n_format_error": 0
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "strategy": "dgc",
+      "budget": 4000,
+      "n_jobs": 192,
+      "n_ok": 192,
+      "n_items": 64,
+      "success_rate": 1.0,
+      "accuracy": 0.5833333333333334,
+      "acc_ci_lo": 0.5126304945212694,
+      "acc_ci_hi": 0.650766863343454,
+      "acc_repeat_mean": 0.5833333333333334,
+      "acc_repeat_sd": 0.009021097956087904,
+      "n_repeats": 3,
+      "set_f1": 0.7276014109347442,
+      "evidence_precision": 0.7944444444444446,
+      "evidence_recall": 0.6137682557604435,
+      "context_recall": 0.7476920215201462,
+      "context_recall_soft": 0.751487228049728,
+      "context_recall_trace": 0.5949842684708586,
+      "context_est_tokens": 3944.75,
+      "prompt_est_tokens": 4725.96875,
+      "input_tokens": 5165.890625,
+      "output_tokens": 749.6197916666666,
+      "latency_mean_s": 5.243197916666664,
+      "latency_sd_s": 3.564349812190232,
+      "cost_total_usd": 0.10161956999999998,
+      "cost_per_task_usd": 0.0005292685937499999,
+      "cost_per_correct_usd": 0.0009073175892857141,
+      "distractor_rate_lookalike": 0.0,
+      "acc_L1": 1.0,
+      "acc_L2": 0.9,
+      "acc_L3": 0.3076923076923077,
+      "acc_L4": 0.0,
+      "acc_L5": 0.7083333333333334,
+      "acc_indirect": 0.38333333333333336,
+      "acc_lookalike": 0.632183908045977,
+      "n_correct": 112,
+      "n_distractor_confusion": 3,
+      "n_missing_evidence": 74,
+      "n_use_failure": 3,
+      "n_format_error": 0
+    }
+  ],
+  "hypotheses": {
+    "claude-haiku-5-5": {
+      "H1a_4000": {
+        "comparison": "dgc - bm25 @4000, L3-L5",
+        "n_items": 41,
+        "acc_dgc": 0.3739837398373984,
+        "acc_bm25": 0.3902439024390244,
+        "diff": -0.016260162601626018,
+        "ci95": [
+          -0.16260162601626016,
+          0.13008130081300814
+        ],
+        "p_bootstrap": 0.8368,
+        "mcnemar": [
+          5,
+          6,
+          1.0
+        ],
+        "verdict": "inconclusive",
+        "p_holm": 0.8368
+      },
+      "H2a": {
+        "comparison": "acc(dgc | CR=1) - acc(bm25 | CR=1), pooled over budgets",
+        "n_dgc_cr1": 84,
+        "n_bm25_cr1": 60,
+        "acc_dgc_cr1": 0.9642857142857143,
+        "acc_bm25_cr1": 0.9666666666666667,
+        "acc_dgc_cr_lt1": 0.28703703703703703,
+        "acc_bm25_cr_lt1": 0.42424242424242425,
+        "diff": -0.0023809523809523725,
+        "ci90": [
+          -0.050000000000000044,
+          0.050000000000000044
+        ],
+        "margin": 0.05,
+        "verdict": "not equivalent"
+      },
+      "H3b": {
+        "comparison": "distractor-confusion rate on look-alike items, bm25 vs dgc @2K+4K",
+        "rate_bm25": 0.034482758620689655,
+        "rate_dgc": 0.0,
+        "bm25_only": 3,
+        "dgc_only": 0,
+        "p_mcnemar": 0.25,
+        "verdict": "inconclusive",
+        "p_holm": 0.5
+      }
+    }
+  },
+  "extra": {
+    "flip_rate": {
+      "n_cells_with_repeats": 128,
+      "flip_rate": 0.0546875
+    },
+    "token_calibration": {
+      "claude-haiku-5-5": {
+        "n": 384,
+        "intercept_tokens": 75.73572002764104,
+        "slope_actual_per_estimated": 1.0752959831797664
+      }
+    },
+    "model_rank_agreement": {},
+    "n_records": 384,
+    "n_ok": 384,
+    "n_errors": 0
+  },
+  "prereg": {
+    "_comment": "Pre-registered thresholds (frozen 2026-11-13 before the main run). See docs/research_design.md section 4.",
+    "h1a_support": 0.1,
+    "h1a_refute": 0.03,
+    "h2a_margin": 0.05,
+    "h2b_error": 0.15,
+    "h3a_support": 0.1,
+    "ablation_budgets": [
+      4000,
+      8000
+    ]
+  }
+}

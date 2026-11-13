@@ -1,0 +1,101 @@
+{
+  "experiment": "oracle_trace_sonnet-20261113-205901",
+  "provenance": {
+    "ccbench_version": "1.0.0",
+    "prompt_version": "p1",
+    "dataset_version": "v1",
+    "dataset_sha256": "5e550060fea81413",
+    "fixture_hash": "8da947b42b62564d",
+    "repo_git_commit": null,
+    "chars_per_token_estimate": 2.35,
+    "python": "3.9.6",
+    "platform": "macOS-13.7.8-x86_64-i386-64bit",
+    "providers": {
+      "claude-sonnet-5-5": {
+        "model": "sonnet",
+        "temperature": null,
+        "seed": null,
+        "unsupported": [
+          "temperature",
+          "seed"
+        ],
+        "effort": null
+      }
+    },
+    "n_items": 64
+  },
+  "cells": [
+    {
+      "model": "claude-sonnet-5-5",
+      "strategy": "oracle_trace",
+      "budget": "unbounded",
+      "n_jobs": 64,
+      "n_ok": 64,
+      "n_items": 64,
+      "success_rate": 1.0,
+      "accuracy": 0.96875,
+      "acc_ci_lo": 0.8930250611770575,
+      "acc_ci_hi": 0.9913880422874835,
+      "acc_repeat_mean": 0.96875,
+      "acc_repeat_sd": 0.0,
+      "n_repeats": 1,
+      "set_f1": 0.9375,
+      "evidence_precision": 0.9057291666666666,
+      "evidence_recall": 0.8021864420301921,
+      "context_recall": 1.0,
+      "context_recall_soft": 1.0,
+      "context_recall_trace": 1.0,
+      "context_est_tokens": 4666.453125,
+      "prompt_est_tokens": 5447.65625,
+      "input_tokens": 5679.40625,
+      "output_tokens": 450.03125,
+      "latency_mean_s": 4.602968750000001,
+      "latency_sd_s": 2.065591271426958,
+      "cost_total_usd": 1.7388567000000004,
+      "cost_per_task_usd": 0.027169635937500006,
+      "cost_per_correct_usd": 0.028046075806451617,
+      "distractor_rate_lookalike": 0.0,
+      "acc_L1": 1.0,
+      "acc_L2": 1.0,
+      "acc_L3": 1.0,
+      "acc_L4": 1.0,
+      "acc_L5": 0.875,
+      "acc_indirect": 0.95,
+      "acc_lookalike": 1.0,
+      "n_correct": 62,
+      "n_distractor_confusion": 0,
+      "n_missing_evidence": 0,
+      "n_use_failure": 2,
+      "n_format_error": 0
+    }
+  ],
+  "hypotheses": {
+    "claude-sonnet-5-5": {}
+  },
+  "extra": {
+    "flip_rate": null,
+    "token_calibration": {
+      "claude-sonnet-5-5": {
+        "n": 64,
+        "intercept_tokens": 604.2729161602592,
+        "slope_actual_per_estimated": 0.9316177638483963
+      }
+    },
+    "model_rank_agreement": {},
+    "n_records": 64,
+    "n_ok": 64,
+    "n_errors": 0
+  },
+  "prereg": {
+    "_comment": "Pre-registered thresholds (frozen 2026-11-13 before the main run). See docs/research_design.md section 4.",
+    "h1a_support": 0.1,
+    "h1a_refute": 0.03,
+    "h2a_margin": 0.05,
+    "h2b_error": 0.15,
+    "h3a_support": 0.1,
+    "ablation_budgets": [
+      4000,
+      8000
+    ]
+  }
+}

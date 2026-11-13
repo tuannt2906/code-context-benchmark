@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 420" font-family="system-ui, sans-serif" font-size="12">
+<rect width="100%" height="100%" fill="#fcfcfb"/>
+<text x="60" y="24" font-size="15" font-weight="600" fill="#0b0b0b">Accuracy by difficulty level at 4K budget - claude-haiku-5-5</text>
+<line x1="60" x2="760" y1="320.0" y2="320.0" stroke="#e4e3df"/>
+<text x="52" y="324.0" text-anchor="end" fill="#52514e">0%</text>
+<line x1="60" x2="760" y1="265.6" y2="265.6" stroke="#e4e3df"/>
+<text x="52" y="269.6" text-anchor="end" fill="#52514e">20%</text>
+<line x1="60" x2="760" y1="211.2" y2="211.2" stroke="#e4e3df"/>
+<text x="52" y="215.2" text-anchor="end" fill="#52514e">40%</text>
+<line x1="60" x2="760" y1="156.8" y2="156.8" stroke="#e4e3df"/>
+<text x="52" y="160.8" text-anchor="end" fill="#52514e">60%</text>
+<line x1="60" x2="760" y1="102.4" y2="102.4" stroke="#e4e3df"/>
+<text x="52" y="106.4" text-anchor="end" fill="#52514e">80%</text>
+<line x1="60" x2="760" y1="48.0" y2="48.0" stroke="#e4e3df"/>
+<text x="52" y="52.0" text-anchor="end" fill="#52514e">100%</text>
+<path d="M70.0 320.0 V52.0 Q70.0 48.0 74.0 48.0 H88.0 Q92.0 48.0 92.0 52.0 V320.0 Z" fill="#2a78d6"><title>L1 / E5 DGC (proposed): 100.0%</title></path>
+<path d="M94.0 320.0 V52.0 Q94.0 48.0 98.0 48.0 H112.0 Q116.0 48.0 116.0 52.0 V320.0 Z" fill="#eb6834"><title>L1 / E4 BM25: 100.0%</title></path>
+<path d="M118.0 320.0 V52.0 Q118.0 48.0 122.0 48.0 H136.0 Q140.0 48.0 140.0 52.0 V320.0 Z" fill="#1baf7a"><title>L1 / E4b BM25+name graph: 100.0%</title></path>
+<path d="M142.0 320.0 V303.1 Q142.0 299.1 146.0 299.1 H160.0 Q164.0 299.1 164.0 303.1 V320.0 Z" fill="#eda100"><title>L1 / E2 Full (truncated): 7.7%</title></path>
+<path d="M166.0 320.0 V320.0 Q166.0 320.0 170.0 320.0 H184.0 Q188.0 320.0 188.0 320.0 V320.0 Z" fill="#e87ba4"><title>L1 / E3 Fixed files: 0.0%</title></path>
+<text x="130.0" y="338" text-anchor="middle" fill="#52514e">L1</text>
+<path d="M210.0 320.0 V79.2 Q210.0 75.2 214.0 75.2 H228.0 Q232.0 75.2 232.0 79.2 V320.0 Z" fill="#2a78d6"><title>L2 / E5 DGC (proposed): 90.0%</title></path>
+<path d="M234.0 320.0 V79.2 Q234.0 75.2 238.0 75.2 H252.0 Q256.0 75.2 256.0 79.2 V320.0 Z" fill="#eb6834"><title>L2 / E4 BM25: 90.0%</title></path>
+<path d="M258.0 320.0 V79.2 Q258.0 75.2 262.0 75.2 H276.0 Q280.0 75.2 280.0 79.2 V320.0 Z" fill="#1baf7a"><title>L2 / E4b BM25+name graph: 90.0%</title></path>
+<path d="M282.0 320.0 V320.0 Q282.0 320.0 286.0 320.0 H300.0 Q304.0 320.0 304.0 320.0 V320.0 Z" fill="#eda100"><title>L2 / E2 Full (truncated): 0.0%</title></path>
+<path d="M306.0 320.0 V296.8 Q306.0 292.8 310.0 292.8 H324.0 Q328.0 292.8 328.0 296.8 V320.0 Z" fill="#e87ba4"><title>L2 / E3 Fixed files: 10.0%</title></path>
+<text x="270.0" y="338" text-anchor="middle" fill="#52514e">L2</text>
+<path d="M350.0 320.0 V240.3 Q350.0 236.3 354.0 236.3 H368.0 Q372.0 236.3 372.0 240.3 V320.0 Z" fill="#2a78d6"><title>L3 / E5 DGC (proposed): 30.8%</title></path>
+<path d="M374.0 320.0 V219.4 Q374.0 215.4 378.0 215.4 H392.0 Q396.0 215.4 396.0 219.4 V320.0 Z" fill="#eb6834"><title>L3 / E4 BM25: 38.5%</title></path>
+<path d="M398.0 320.0 V219.4 Q398.0 215.4 402.0 215.4 H416.0 Q420.0 215.4 420.0 219.4 V320.0 Z" fill="#1baf7a"><title>L3 / E4b BM25+name graph: 38.5%</title></path>
+<path d="M422.0 320.0 V303.1 Q422.0 299.1 426.0 299.1 H440.0 Q444.0 299.1 444.0 303.1 V320.0 Z" fill="#eda100"><title>L3 / E2 Full (truncated): 7.7%</title></path>
+<path d="M446.0 320.0 V303.1 Q446.0 299.1 450.0 299.1 H464.0 Q468.0 299.1 468.0 303.1 V320.0 Z" fill="#e87ba4"><title>L3 / E3 Fixed files: 7.7%</title></path>
+<text x="410.0" y="338" text-anchor="middle" fill="#52514e">L3</text>
+<path d="M490.0 320.0 V320.0 Q490.0 320.0 494.0 320.0 H508.0 Q512.0 320.0 512.0 320.0 V320.0 Z" fill="#2a78d6"><title>L4 / E5 DGC (proposed): 0.0%</title></path>
+<path d="M514.0 320.0 V301.3 Q514.0 297.3 518.0 297.3 H532.0 Q536.0 297.3 536.0 301.3 V320.0 Z" fill="#eb6834"><title>L4 / E4 BM25: 8.3%</title></path>
+<path d="M538.0 320.0 V301.3 Q538.0 297.3 542.0 297.3 H556.0 Q560.0 297.3 560.0 301.3 V320.0 Z" fill="#1baf7a"><title>L4 / E4b BM25+name graph: 8.3%</title></path>
+<path d="M562.0 320.0 V320.0 Q562.0 320.0 566.0 320.0 H580.0 Q584.0 320.0 584.0 320.0 V320.0 Z" fill="#eda100"><title>L4 / E2 Full (truncated): 0.0%</title></path>
+<path d="M586.0 320.0 V320.0 Q586.0 320.0 590.0 320.0 H604.0 Q608.0 320.0 608.0 320.0 V320.0 Z" fill="#e87ba4"><title>L4 / E3 Fixed files: 0.0%</title></path>
+<text x="550.0" y="338" text-anchor="middle" fill="#52514e">L4</text>
+<path d="M630.0 320.0 V137.0 Q630.0 133.0 634.0 133.0 H648.0 Q652.0 133.0 652.0 137.0 V320.0 Z" fill="#2a78d6"><title>L5 / E5 DGC (proposed): 68.8%</title></path>
+<path d="M654.0 320.0 V188.0 Q654.0 184.0 658.0 184.0 H672.0 Q676.0 184.0 676.0 188.0 V320.0 Z" fill="#eb6834"><title>L5 / E4 BM25: 50.0%</title></path>
+<path d="M678.0 320.0 V205.0 Q678.0 201.0 682.0 201.0 H696.0 Q700.0 201.0 700.0 205.0 V320.0 Z" fill="#1baf7a"><title>L5 / E4b BM25+name graph: 43.8%</title></path>
+<path d="M702.0 320.0 V205.0 Q702.0 201.0 706.0 201.0 H720.0 Q724.0 201.0 724.0 205.0 V320.0 Z" fill="#eda100"><title>L5 / E2 Full (truncated): 43.8%</title></path>
+<path d="M726.0 320.0 V239.0 Q726.0 235.0 730.0 235.0 H744.0 Q748.0 235.0 748.0 239.0 V320.0 Z" fill="#e87ba4"><title>L5 / E3 Fixed files: 31.2%</title></path>
+<text x="690.0" y="338" text-anchor="middle" fill="#52514e">L5</text>
+<rect x="60" y="360" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="78" y="370" fill="#0b0b0b">E5 DGC (proposed)</text>
+<rect x="205" y="360" width="12" height="12" rx="3" fill="#eb6834"/>
+<text x="223" y="370" fill="#0b0b0b">E4 BM25</text>
+<rect x="280" y="360" width="12" height="12" rx="3" fill="#1baf7a"/>
+<text x="298" y="370" fill="#0b0b0b">E4b BM25+name graph</text>
+<rect x="439" y="360" width="12" height="12" rx="3" fill="#eda100"/>
+<text x="457" y="370" fill="#0b0b0b">E2 Full (truncated)</text>
+<rect x="598" y="360" width="12" height="12" rx="3" fill="#e87ba4"/>
+<text x="616" y="370" fill="#0b0b0b">E3 Fixed files</text>
+<text transform="translate(16,184) rotate(-90)" text-anchor="middle" fill="#52514e">Accuracy</text>
+</svg>

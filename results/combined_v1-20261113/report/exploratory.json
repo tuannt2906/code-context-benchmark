@@ -1,0 +1,470 @@
+{
+ "claude-haiku-5-5": {
+  "bm25-full@2000": {
+   "diff": 0.344,
+   "ci95": [
+    0.219,
+    0.469
+   ],
+   "p_boot": 0.0001,
+   "mcnemar_wins_losses_p": [
+    24,
+    2,
+    0.0
+   ],
+   "n": 64
+  },
+  "bm25-full@4000": {
+   "diff": 0.422,
+   "ci95": [
+    0.281,
+    0.562
+   ],
+   "p_boot": 0.0001,
+   "mcnemar_wins_losses_p": [
+    30,
+    3,
+    0.0
+   ],
+   "n": 64
+  },
+  "bm25-full@8000": {
+   "diff": 0.5,
+   "ci95": [
+    0.375,
+    0.625
+   ],
+   "p_boot": 0.0001,
+   "mcnemar_wins_losses_p": [
+    33,
+    1,
+    0.0
+   ],
+   "n": 64
+  },
+  "bm25-full@16000": {
+   "diff": 0.375,
+   "ci95": [
+    0.266,
+    0.5
+   ],
+   "p_boot": 0.0001,
+   "mcnemar_wins_losses_p": [
+    24,
+    0,
+    0.0
+   ],
+   "n": 64
+  },
+  "noexp-bm25@4000": {
+   "diff": 0.094,
+   "ci95": [
+    -0.016,
+    0.203
+   ],
+   "p_boot": 0.1065,
+   "mcnemar_wins_losses_p": [
+    9,
+    3,
+    0.146
+   ],
+   "n": 64
+  },
+  "noexp-dgc@4000": {
+   "diff": 0.078,
+   "ci95": [
+    -0.016,
+    0.172
+   ],
+   "p_boot": 0.1659,
+   "mcnemar_wins_losses_p": [
+    8,
+    3,
+    0.2266
+   ],
+   "n": 64
+  },
+  "dgc-noranking@4000": {
+   "diff": 0.391,
+   "ci95": [
+    0.25,
+    0.531
+   ],
+   "p_boot": 0.0001,
+   "mcnemar_wins_losses_p": [
+    27,
+    2,
+    0.0
+   ],
+   "n": 64
+  },
+  "noexp-bm25@8000": {
+   "diff": 0.016,
+   "ci95": [
+    -0.047,
+    0.078
+   ],
+   "p_boot": 0.8217,
+   "mcnemar_wins_losses_p": [
+    3,
+    2,
+    1.0
+   ],
+   "n": 64
+  },
+  "noexp-dgc@8000": {
+   "diff": 0.078,
+   "ci95": [
+    -0.016,
+    0.172
+   ],
+   "p_boot": 0.1181,
+   "mcnemar_wins_losses_p": [
+    7,
+    2,
+    0.1797
+   ],
+   "n": 64
+  },
+  "dgc-noranking@8000": {
+   "diff": 0.391,
+   "ci95": [
+    0.266,
+    0.516
+   ],
+   "p_boot": 0.0001,
+   "mcnemar_wins_losses_p": [
+    26,
+    1,
+    0.0
+   ],
+   "n": 64
+  },
+  "dgc-bm25_all@2000": {
+   "diff": 0.094,
+   "ci95": [
+    -0.016,
+    0.203
+   ],
+   "p_boot": 0.098,
+   "mcnemar_wins_losses_p": [
+    9,
+    3,
+    0.146
+   ],
+   "n": 64
+  },
+  "dgc-bm25_all@4000": {
+   "diff": 0.016,
+   "ci95": [
+    -0.094,
+    0.125
+   ],
+   "p_boot": 0.8887,
+   "mcnemar_wins_losses_p": [
+    7,
+    6,
+    1.0
+   ],
+   "n": 64
+  },
+  "dgc-bm25_all@8000": {
+   "diff": -0.062,
+   "ci95": [
+    -0.172,
+    0.047
+   ],
+   "p_boot": 0.3435,
+   "mcnemar_wins_losses_p": [
+    5,
+    9,
+    0.424
+   ],
+   "n": 64
+  },
+  "dgc-bm25_all@16000": {
+   "diff": -0.047,
+   "ci95": [
+    -0.141,
+    0.047
+   ],
+   "p_boot": 0.3934,
+   "mcnemar_wins_losses_p": [
+    3,
+    6,
+    0.5078
+   ],
+   "n": 64
+  },
+  "fullunb-dgc16k": {
+   "diff": 0.219,
+   "ci95": [
+    0.125,
+    0.328
+   ],
+   "p_boot": 0.0001,
+   "mcnemar_wins_losses_p": [
+    14,
+    0,
+    0.0001
+   ],
+   "n": 64
+  },
+  "fullunb-bm25_16k": {
+   "diff": 0.172,
+   "ci95": [
+    0.078,
+    0.266
+   ],
+   "p_boot": 0.0004,
+   "mcnemar_wins_losses_p": [
+    11,
+    0,
+    0.001
+   ],
+   "n": 64
+  },
+  "H2b_corrected_trace_oracle_L4L5": {
+   "error_rate": 0.071,
+   "n": 28,
+   "ci95": [
+    0.02,
+    0.226
+   ]
+  }
+ },
+ "claude-sonnet-5-5": {
+  "bm25-full@2000": {
+   "diff": 0.375,
+   "ci95": [
+    0.25,
+    0.516
+   ],
+   "p_boot": 0.0001,
+   "mcnemar_wins_losses_p": [
+    26,
+    2,
+    0.0
+   ],
+   "n": 64
+  },
+  "bm25-full@4000": {
+   "diff": 0.469,
+   "ci95": [
+    0.328,
+    0.609
+   ],
+   "p_boot": 0.0001,
+   "mcnemar_wins_losses_p": [
+    32,
+    2,
+    0.0
+   ],
+   "n": 64
+  },
+  "bm25-full@8000": {
+   "diff": 0.453,
+   "ci95": [
+    0.328,
+    0.578
+   ],
+   "p_boot": 0.0001,
+   "mcnemar_wins_losses_p": [
+    30,
+    1,
+    0.0
+   ],
+   "n": 64
+  },
+  "bm25-full@16000": {
+   "diff": 0.391,
+   "ci95": [
+    0.266,
+    0.516
+   ],
+   "p_boot": 0.0001,
+   "mcnemar_wins_losses_p": [
+    26,
+    1,
+    0.0
+   ],
+   "n": 64
+  },
+  "noexp-bm25@4000": {
+   "diff": 0.031,
+   "ci95": [
+    -0.047,
+    0.109
+   ],
+   "p_boot": 0.5311,
+   "mcnemar_wins_losses_p": [
+    4,
+    2,
+    0.6875
+   ],
+   "n": 64
+  },
+  "noexp-dgc@4000": {
+   "diff": 0.109,
+   "ci95": [
+    0.016,
+    0.203
+   ],
+   "p_boot": 0.0431,
+   "mcnemar_wins_losses_p": [
+    9,
+    2,
+    0.0654
+   ],
+   "n": 64
+  },
+  "dgc-noranking@4000": {
+   "diff": 0.281,
+   "ci95": [
+    0.141,
+    0.422
+   ],
+   "p_boot": 0.0001,
+   "mcnemar_wins_losses_p": [
+    21,
+    3,
+    0.0003
+   ],
+   "n": 64
+  },
+  "noexp-bm25@8000": {
+   "diff": 0.016,
+   "ci95": [
+    -0.031,
+    0.078
+   ],
+   "p_boot": 0.7625,
+   "mcnemar_wins_losses_p": [
+    2,
+    1,
+    1.0
+   ],
+   "n": 64
+  },
+  "noexp-dgc@8000": {
+   "diff": 0.109,
+   "ci95": [
+    0.016,
+    0.219
+   ],
+   "p_boot": 0.0451,
+   "mcnemar_wins_losses_p": [
+    9,
+    2,
+    0.0654
+   ],
+   "n": 64
+  },
+  "dgc-noranking@8000": {
+   "diff": 0.328,
+   "ci95": [
+    0.203,
+    0.453
+   ],
+   "p_boot": 0.0001,
+   "mcnemar_wins_losses_p": [
+    23,
+    2,
+    0.0
+   ],
+   "n": 64
+  },
+  "dgc-bm25_all@2000": {
+   "diff": 0.016,
+   "ci95": [
+    -0.094,
+    0.125
+   ],
+   "p_boot": 0.8869,
+   "mcnemar_wins_losses_p": [
+    7,
+    6,
+    1.0
+   ],
+   "n": 64
+  },
+  "dgc-bm25_all@4000": {
+   "diff": -0.078,
+   "ci95": [
+    -0.188,
+    0.031
+   ],
+   "p_boot": 0.2017,
+   "mcnemar_wins_losses_p": [
+    4,
+    9,
+    0.2668
+   ],
+   "n": 64
+  },
+  "dgc-bm25_all@8000": {
+   "diff": -0.094,
+   "ci95": [
+    -0.203,
+    0.016
+   ],
+   "p_boot": 0.1051,
+   "mcnemar_wins_losses_p": [
+    3,
+    9,
+    0.146
+   ],
+   "n": 64
+  },
+  "dgc-bm25_all@16000": {
+   "diff": -0.062,
+   "ci95": [
+    -0.156,
+    0.031
+   ],
+   "p_boot": 0.2572,
+   "mcnemar_wins_losses_p": [
+    3,
+    7,
+    0.3438
+   ],
+   "n": 64
+  },
+  "fullunb-dgc16k": {
+   "diff": 0.188,
+   "ci95": [
+    0.094,
+    0.297
+   ],
+   "p_boot": 0.0002,
+   "mcnemar_wins_losses_p": [
+    12,
+    0,
+    0.0005
+   ],
+   "n": 64
+  },
+  "fullunb-bm25_16k": {
+   "diff": 0.125,
+   "ci95": [
+    0.047,
+    0.203
+   ],
+   "p_boot": 0.0049,
+   "mcnemar_wins_losses_p": [
+    8,
+    0,
+    0.0078
+   ],
+   "n": 64
+  },
+  "H2b_corrected_trace_oracle_L4L5": {
+   "error_rate": 0.071,
+   "n": 28,
+   "ci95": [
+    0.02,
+    0.226
+   ]
+  }
+ }
+}

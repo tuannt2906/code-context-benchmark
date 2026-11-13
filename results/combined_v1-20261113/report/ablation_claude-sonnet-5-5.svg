@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 420" font-family="system-ui, sans-serif" font-size="12">
+<rect width="100%" height="100%" fill="#fcfcfb"/>
+<text x="60" y="24" font-size="15" font-weight="600" fill="#0b0b0b">DGC ablation - claude-sonnet-5-5</text>
+<line x1="60" x2="760" y1="320.0" y2="320.0" stroke="#e4e3df"/>
+<text x="52" y="324.0" text-anchor="end" fill="#52514e">0%</text>
+<line x1="60" x2="760" y1="265.6" y2="265.6" stroke="#e4e3df"/>
+<text x="52" y="269.6" text-anchor="end" fill="#52514e">20%</text>
+<line x1="60" x2="760" y1="211.2" y2="211.2" stroke="#e4e3df"/>
+<text x="52" y="215.2" text-anchor="end" fill="#52514e">40%</text>
+<line x1="60" x2="760" y1="156.8" y2="156.8" stroke="#e4e3df"/>
+<text x="52" y="160.8" text-anchor="end" fill="#52514e">60%</text>
+<line x1="60" x2="760" y1="102.4" y2="102.4" stroke="#e4e3df"/>
+<text x="52" y="106.4" text-anchor="end" fill="#52514e">80%</text>
+<line x1="60" x2="760" y1="48.0" y2="48.0" stroke="#e4e3df"/>
+<text x="52" y="52.0" text-anchor="end" fill="#52514e">100%</text>
+<path d="M75.5 320.0 V201.6 Q75.5 197.6 79.5 197.6 H93.5 Q97.5 197.6 97.5 201.6 V320.0 Z" fill="#2a78d6"><title>4K indirect / E5 DGC (proposed): 45.0%</title></path>
+<path d="M99.5 320.0 V194.8 Q99.5 190.8 103.5 190.8 H117.5 Q121.5 190.8 121.5 194.8 V320.0 Z" fill="#eb6834"><title>4K indirect / A1 -dispatch: 47.5%</title></path>
+<path d="M123.5 320.0 V160.8 Q123.5 156.8 127.5 156.8 H141.5 Q145.5 156.8 145.5 160.8 V320.0 Z" fill="#1baf7a"><title>4K indirect / A2 -expansion: 60.0%</title></path>
+<path d="M147.5 320.0 V242.4 Q147.5 238.4 151.5 238.4 H165.5 Q169.5 238.4 169.5 242.4 V320.0 Z" fill="#eda100"><title>4K indirect / A3 -ranking: 30.0%</title></path>
+<path d="M171.5 320.0 V194.8 Q171.5 190.8 175.5 190.8 H189.5 Q193.5 190.8 193.5 194.8 V320.0 Z" fill="#e87ba4"><title>4K indirect / A4 -skeleton: 47.5%</title></path>
+<path d="M195.5 320.0 V194.8 Q195.5 190.8 199.5 190.8 H213.5 Q217.5 190.8 217.5 194.8 V320.0 Z" fill="#008300"><title>4K indirect / A5 -reverse: 47.5%</title></path>
+<text x="147.5" y="338" text-anchor="middle" fill="#52514e">4K indirect</text>
+<path d="M250.5 320.0 V154.0 Q250.5 150.0 254.5 150.0 H268.5 Q272.5 150.0 272.5 154.0 V320.0 Z" fill="#2a78d6"><title>4K all / E5 DGC (proposed): 62.5%</title></path>
+<path d="M274.5 320.0 V154.0 Q274.5 150.0 278.5 150.0 H292.5 Q296.5 150.0 296.5 154.0 V320.0 Z" fill="#eb6834"><title>4K all / A1 -dispatch: 62.5%</title></path>
+<path d="M298.5 320.0 V124.2 Q298.5 120.2 302.5 120.2 H316.5 Q320.5 120.2 320.5 124.2 V320.0 Z" fill="#1baf7a"><title>4K all / A2 -expansion: 73.4%</title></path>
+<path d="M322.5 320.0 V230.5 Q322.5 226.5 326.5 226.5 H340.5 Q344.5 226.5 344.5 230.5 V320.0 Z" fill="#eda100"><title>4K all / A3 -ranking: 34.4%</title></path>
+<path d="M346.5 320.0 V154.0 Q346.5 150.0 350.5 150.0 H364.5 Q368.5 150.0 368.5 154.0 V320.0 Z" fill="#e87ba4"><title>4K all / A4 -skeleton: 62.5%</title></path>
+<path d="M370.5 320.0 V149.8 Q370.5 145.8 374.5 145.8 H388.5 Q392.5 145.8 392.5 149.8 V320.0 Z" fill="#008300"><title>4K all / A5 -reverse: 64.1%</title></path>
+<text x="322.5" y="338" text-anchor="middle" fill="#52514e">4K all</text>
+<path d="M425.5 320.0 V174.4 Q425.5 170.4 429.5 170.4 H443.5 Q447.5 170.4 447.5 174.4 V320.0 Z" fill="#2a78d6"><title>8K indirect / E5 DGC (proposed): 55.0%</title></path>
+<path d="M449.5 320.0 V167.6 Q449.5 163.6 453.5 163.6 H467.5 Q471.5 163.6 471.5 167.6 V320.0 Z" fill="#eb6834"><title>8K indirect / A1 -dispatch: 57.5%</title></path>
+<path d="M473.5 320.0 V126.8 Q473.5 122.8 477.5 122.8 H491.5 Q495.5 122.8 495.5 126.8 V320.0 Z" fill="#1baf7a"><title>8K indirect / A2 -expansion: 72.5%</title></path>
+<path d="M497.5 320.0 V235.6 Q497.5 231.6 501.5 231.6 H515.5 Q519.5 231.6 519.5 235.6 V320.0 Z" fill="#eda100"><title>8K indirect / A3 -ranking: 32.5%</title></path>
+<path d="M521.5 320.0 V167.6 Q521.5 163.6 525.5 163.6 H539.5 Q543.5 163.6 543.5 167.6 V320.0 Z" fill="#e87ba4"><title>8K indirect / A4 -skeleton: 57.5%</title></path>
+<path d="M545.5 320.0 V154.0 Q545.5 150.0 549.5 150.0 H563.5 Q567.5 150.0 567.5 154.0 V320.0 Z" fill="#008300"><title>8K indirect / A5 -reverse: 62.5%</title></path>
+<text x="497.5" y="338" text-anchor="middle" fill="#52514e">8K indirect</text>
+<path d="M600.5 320.0 V132.8 Q600.5 128.8 604.5 128.8 H618.5 Q622.5 128.8 622.5 132.8 V320.0 Z" fill="#2a78d6"><title>8K all / E5 DGC (proposed): 70.3%</title></path>
+<path d="M624.5 320.0 V132.8 Q624.5 128.8 628.5 128.8 H642.5 Q646.5 128.8 646.5 132.8 V320.0 Z" fill="#eb6834"><title>8K all / A1 -dispatch: 70.3%</title></path>
+<path d="M648.5 320.0 V103.0 Q648.5 99.0 652.5 99.0 H666.5 Q670.5 99.0 670.5 103.0 V320.0 Z" fill="#1baf7a"><title>8K all / A2 -expansion: 81.2%</title></path>
+<path d="M672.5 320.0 V222.0 Q672.5 218.0 676.5 218.0 H690.5 Q694.5 218.0 694.5 222.0 V320.0 Z" fill="#eda100"><title>8K all / A3 -ranking: 37.5%</title></path>
+<path d="M696.5 320.0 V128.5 Q696.5 124.5 700.5 124.5 H714.5 Q718.5 124.5 718.5 128.5 V320.0 Z" fill="#e87ba4"><title>8K all / A4 -skeleton: 71.9%</title></path>
+<path d="M720.5 320.0 V120.0 Q720.5 116.0 724.5 116.0 H738.5 Q742.5 116.0 742.5 120.0 V320.0 Z" fill="#008300"><title>8K all / A5 -reverse: 75.0%</title></path>
+<text x="672.5" y="338" text-anchor="middle" fill="#52514e">8K all</text>
+<rect x="60" y="360" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="78" y="370" fill="#0b0b0b">E5 DGC (proposed)</text>
+<rect x="205" y="360" width="12" height="12" rx="3" fill="#eb6834"/>
+<text x="223" y="370" fill="#0b0b0b">A1 -dispatch</text>
+<rect x="315" y="360" width="12" height="12" rx="3" fill="#1baf7a"/>
+<text x="333" y="370" fill="#0b0b0b">A2 -expansion</text>
+<rect x="432" y="360" width="12" height="12" rx="3" fill="#eda100"/>
+<text x="450" y="370" fill="#0b0b0b">A3 -ranking</text>
+<rect x="535" y="360" width="12" height="12" rx="3" fill="#e87ba4"/>
+<text x="553" y="370" fill="#0b0b0b">A4 -skeleton</text>
+<rect x="645" y="360" width="12" height="12" rx="3" fill="#008300"/>
+<text x="663" y="370" fill="#0b0b0b">A5 -reverse</text>
+<text transform="translate(16,184) rotate(-90)" text-anchor="middle" fill="#52514e">Accuracy</text>
+</svg>

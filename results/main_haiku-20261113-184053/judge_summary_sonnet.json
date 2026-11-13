@@ -1,0 +1,7 @@
+{
+  "n": 30,
+  "judge_model": "sonnet",
+  "kappa_rule_vs_judge(score==2)": 0.6724890829694323,
+  "mean_score_when_correct": 1.736842105263158,
+  "mean_score_when_wrong": 0.2727272727272727
+}

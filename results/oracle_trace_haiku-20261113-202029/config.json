@@ -1,0 +1,51 @@
+{
+  "experiment_id": "oracle_trace_haiku-20261113-202029",
+  "created": "2026-11-13T20:20:29",
+  "config": {
+    "name": "oracle_trace_haiku",
+    "_note": "Exploratory (post hoc): trace-based oracle context.",
+    "dataset_version": "v1",
+    "models": [
+      {
+        "provider": "claude_cli",
+        "model": "haiku",
+        "label": "claude-haiku-5-5",
+        "timeout": 240,
+        "max_retries": 3
+      }
+    ],
+    "conditions": [
+      {
+        "strategy": "oracle_trace"
+      }
+    ],
+    "items": {},
+    "repeats": 1,
+    "max_output_tokens": 1024,
+    "concurrency": 6
+  },
+  "provenance": {
+    "ccbench_version": "1.0.0",
+    "prompt_version": "p1",
+    "dataset_version": "v1",
+    "dataset_sha256": "5e550060fea81413",
+    "fixture_hash": "8da947b42b62564d",
+    "repo_git_commit": null,
+    "chars_per_token_estimate": 2.35,
+    "python": "3.9.6",
+    "platform": "macOS-13.7.8-x86_64-i386-64bit",
+    "providers": {
+      "claude-haiku-5-5": {
+        "model": "haiku",
+        "temperature": null,
+        "seed": null,
+        "unsupported": [
+          "temperature",
+          "seed"
+        ],
+        "effort": null
+      }
+    },
+    "n_items": 64
+  }
+}

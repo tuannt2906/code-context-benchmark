@@ -1,0 +1,101 @@
+{
+  "experiment": "oracle_trace_haiku-20261113-202029",
+  "provenance": {
+    "ccbench_version": "1.0.0",
+    "prompt_version": "p1",
+    "dataset_version": "v1",
+    "dataset_sha256": "5e550060fea81413",
+    "fixture_hash": "8da947b42b62564d",
+    "repo_git_commit": null,
+    "chars_per_token_estimate": 2.35,
+    "python": "3.9.6",
+    "platform": "macOS-13.7.8-x86_64-i386-64bit",
+    "providers": {
+      "claude-haiku-5-5": {
+        "model": "haiku",
+        "temperature": null,
+        "seed": null,
+        "unsupported": [
+          "temperature",
+          "seed"
+        ],
+        "effort": null
+      }
+    },
+    "n_items": 64
+  },
+  "cells": [
+    {
+      "model": "claude-haiku-5-5",
+      "strategy": "oracle_trace",
+      "budget": "unbounded",
+      "n_jobs": 64,
+      "n_ok": 64,
+      "n_items": 64,
+      "success_rate": 1.0,
+      "accuracy": 0.953125,
+      "acc_ci_lo": 0.8710013921145747,
+      "acc_ci_hi": 0.9839312745678148,
+      "acc_repeat_mean": 0.953125,
+      "acc_repeat_sd": 0.0,
+      "n_repeats": 1,
+      "set_f1": 0.9166666666666666,
+      "evidence_precision": 0.9153645833333333,
+      "evidence_recall": 0.7718399005508381,
+      "context_recall": 1.0,
+      "context_recall_soft": 1.0,
+      "context_recall_trace": 1.0,
+      "context_est_tokens": 4666.453125,
+      "prompt_est_tokens": 5447.65625,
+      "input_tokens": 5702.40625,
+      "output_tokens": 941.515625,
+      "latency_mean_s": 8.192953125,
+      "latency_sd_s": 6.915484172997159,
+      "cost_total_usd": 0.10295602000000001,
+      "cost_per_task_usd": 0.0016086878125000001,
+      "cost_per_correct_usd": 0.0016878036065573771,
+      "distractor_rate_lookalike": 0.0,
+      "acc_L1": 1.0,
+      "acc_L2": 1.0,
+      "acc_L3": 0.9230769230769231,
+      "acc_L4": 1.0,
+      "acc_L5": 0.875,
+      "acc_indirect": 0.925,
+      "acc_lookalike": 0.9655172413793104,
+      "n_correct": 61,
+      "n_distractor_confusion": 0,
+      "n_missing_evidence": 0,
+      "n_use_failure": 3,
+      "n_format_error": 0
+    }
+  ],
+  "hypotheses": {
+    "claude-haiku-5-5": {}
+  },
+  "extra": {
+    "flip_rate": null,
+    "token_calibration": {
+      "claude-haiku-5-5": {
+        "n": 64,
+        "intercept_tokens": 627.2729161602592,
+        "slope_actual_per_estimated": 0.9316177638483963
+      }
+    },
+    "model_rank_agreement": {},
+    "n_records": 64,
+    "n_ok": 64,
+    "n_errors": 0
+  },
+  "prereg": {
+    "_comment": "Pre-registered thresholds (frozen 2026-11-13 before the main run). See docs/research_design.md section 4.",
+    "h1a_support": 0.1,
+    "h1a_refute": 0.03,
+    "h2a_margin": 0.05,
+    "h2b_error": 0.15,
+    "h3a_support": 0.1,
+    "ablation_budgets": [
+      4000,
+      8000
+    ]
+  }
+}

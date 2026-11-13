@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" font-family="system-ui, sans-serif" font-size="12">
+<rect width="100%" height="100%" fill="#fcfcfb"/>
+<text x="64" y="24" font-size="15" font-weight="600" fill="#0b0b0b">Accuracy vs input tokens - claude-sonnet-5-5</text>
+<line x1="64" x2="730" y1="360.0" y2="360.0" stroke="#e4e3df"/>
+<text x="56" y="364.0" text-anchor="end" fill="#52514e">0%</text>
+<line x1="64" x2="730" y1="297.6" y2="297.6" stroke="#e4e3df"/>
+<text x="56" y="301.6" text-anchor="end" fill="#52514e">20%</text>
+<line x1="64" x2="730" y1="235.2" y2="235.2" stroke="#e4e3df"/>
+<text x="56" y="239.2" text-anchor="end" fill="#52514e">40%</text>
+<line x1="64" x2="730" y1="172.8" y2="172.8" stroke="#e4e3df"/>
+<text x="56" y="176.8" text-anchor="end" fill="#52514e">60%</text>
+<line x1="64" x2="730" y1="110.4" y2="110.4" stroke="#e4e3df"/>
+<text x="56" y="114.4" text-anchor="end" fill="#52514e">80%</text>
+<line x1="64" x2="730" y1="48.0" y2="48.0" stroke="#e4e3df"/>
+<text x="56" y="52.0" text-anchor="end" fill="#52514e">100%</text>
+<text x="64.0" y="380" text-anchor="middle" fill="#52514e">0K</text>
+<text x="184.4" y="380" text-anchor="middle" fill="#52514e">5K</text>
+<text x="304.9" y="380" text-anchor="middle" fill="#52514e">10K</text>
+<text x="425.3" y="380" text-anchor="middle" fill="#52514e">15K</text>
+<text x="545.8" y="380" text-anchor="middle" fill="#52514e">20K</text>
+<text x="666.2" y="380" text-anchor="middle" fill="#52514e">25K</text>
+<text x="397" y="400" text-anchor="middle" fill="#52514e">Mean input tokens per task (provider-reported)</text>
+<circle cx="141.3" cy="184.5" r="5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>E4 BM25 2000: 3209 tokens, 56.2%</title></circle>
+<circle cx="187.6" cy="140.6" r="5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>E4 BM25 4000: 5132 tokens, 70.3%</title></circle>
+<circle cx="278.2" cy="111.4" r="5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>E4 BM25 8000: 8892 tokens, 79.7%</title></circle>
+<circle cx="458.0" cy="87.0" r="5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>E4 BM25 16000: 16358 tokens, 87.5%</title></circle>
+<circle cx="140.9" cy="194.2" r="5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>E4b BM25+name graph 2000: 3191 tokens, 53.1%</title></circle>
+<circle cx="187.3" cy="169.9" r="5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>E4b BM25+name graph 4000: 5118 tokens, 60.9%</title></circle>
+<circle cx="278.4" cy="111.4" r="5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>E4b BM25+name graph 8000: 8900 tokens, 79.7%</title></circle>
+<circle cx="458.0" cy="91.9" r="5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>E4b BM25+name graph 16000: 16356 tokens, 85.9%</title></circle>
+<circle cx="141.7" cy="179.6" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>E5 DGC (proposed) 2000: 3226 tokens, 57.8%</title></circle>
+<circle cx="187.9" cy="165.0" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>E5 DGC (proposed) 4000: 5145 tokens, 62.5%</title></circle>
+<circle cx="278.9" cy="140.6" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>E5 DGC (proposed) 8000: 8921 tokens, 70.3%</title></circle>
+<circle cx="460.6" cy="106.5" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>E5 DGC (proposed) 16000: 16467 tokens, 81.2%</title></circle>
+<circle cx="137.3" cy="286.9" r="5" fill="#e87ba4" stroke="#fcfcfb" stroke-width="2"><title>E3 Fixed files 2000: 3045 tokens, 23.4%</title></circle>
+<circle cx="175.0" cy="277.1" r="5" fill="#e87ba4" stroke="#fcfcfb" stroke-width="2"><title>E3 Fixed files 4000: 4607 tokens, 26.6%</title></circle>
+<circle cx="244.5" cy="238.1" r="5" fill="#e87ba4" stroke="#fcfcfb" stroke-width="2"><title>E3 Fixed files 8000: 7495 tokens, 39.1%</title></circle>
+<circle cx="244.5" cy="243.0" r="5" fill="#e87ba4" stroke="#fcfcfb" stroke-width="2"><title>E3 Fixed files 16000: 7495 tokens, 37.5%</title></circle>
+<circle cx="137.5" cy="301.5" r="5" fill="#eda100" stroke="#fcfcfb" stroke-width="2"><title>E2 Full (truncated) 2000: 3051 tokens, 18.8%</title></circle>
+<circle cx="180.8" cy="286.9" r="5" fill="#eda100" stroke="#fcfcfb" stroke-width="2"><title>E2 Full (truncated) 4000: 4851 tokens, 23.4%</title></circle>
+<circle cx="271.7" cy="252.8" r="5" fill="#eda100" stroke="#fcfcfb" stroke-width="2"><title>E2 Full (truncated) 8000: 8622 tokens, 34.4%</title></circle>
+<circle cx="455.2" cy="208.9" r="5" fill="#eda100" stroke="#fcfcfb" stroke-width="2"><title>E2 Full (truncated) 16000: 16239 tokens, 48.4%</title></circle>
+<circle cx="698.3" cy="48.0" r="5" fill="#eda100" stroke="#fcfcfb" stroke-width="2"><title>E2 Full (truncated) unbounded: 26332 tokens, 100.0%</title></circle>
+<circle cx="94.5" cy="311.2" r="5" fill="#a3a29c" stroke="#fcfcfb" stroke-width="2"><title>E1 No context unbounded: 1266 tokens, 15.6%</title></circle>
+<circle cx="118.0" cy="96.8" r="5" fill="#52514e" stroke="#fcfcfb" stroke-width="2"><title>E0 Oracle unbounded: 2244 tokens, 84.4%</title></circle>
+<rect x="64" y="418" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="82" y="428" fill="#0b0b0b">E5 DGC (proposed)</text>
+<rect x="209" y="418" width="12" height="12" rx="3" fill="#eb6834"/>
+<text x="227" y="428" fill="#0b0b0b">E4 BM25</text>
+<rect x="284" y="418" width="12" height="12" rx="3" fill="#1baf7a"/>
+<text x="302" y="428" fill="#0b0b0b">E4b BM25+name graph</text>
+<rect x="443" y="418" width="12" height="12" rx="3" fill="#eda100"/>
+<text x="461" y="428" fill="#0b0b0b">E2 Full (truncated)</text>
+<rect x="602" y="418" width="12" height="12" rx="3" fill="#e87ba4"/>
+<text x="620" y="428" fill="#0b0b0b">E3 Fixed files</text>
+<rect x="64" y="436" width="12" height="12" rx="3" fill="#52514e"/>
+<text x="82" y="446" fill="#0b0b0b">E0 Oracle</text>
+<rect x="153" y="436" width="12" height="12" rx="3" fill="#a3a29c"/>
+<text x="171" y="446" fill="#0b0b0b">E1 No context</text>
+</svg>

@@ -1,0 +1,135 @@
+{
+  "experiment_id": "main_haiku-20261113-184053",
+  "created": "2026-11-13T18:40:53",
+  "config": {
+    "name": "main_haiku",
+    "_note": "Main grid + ablations, Claude Haiku 5.5.",
+    "dataset_version": "v1",
+    "models": [
+      {
+        "provider": "claude_cli",
+        "model": "haiku",
+        "label": "claude-haiku-5-5",
+        "timeout": 240,
+        "max_retries": 3
+      }
+    ],
+    "conditions": [
+      {
+        "strategy": "none"
+      },
+      {
+        "strategy": "oracle"
+      },
+      {
+        "strategy": "full",
+        "budgets": [
+          null,
+          2000,
+          4000,
+          8000,
+          16000
+        ]
+      },
+      {
+        "strategy": "fixed",
+        "budgets": [
+          2000,
+          4000,
+          8000,
+          16000
+        ]
+      },
+      {
+        "strategy": "bm25",
+        "budgets": [
+          2000,
+          4000,
+          8000,
+          16000
+        ]
+      },
+      {
+        "strategy": "bm25_namegraph",
+        "budgets": [
+          2000,
+          4000,
+          8000,
+          16000
+        ]
+      },
+      {
+        "strategy": "dgc",
+        "budgets": [
+          2000,
+          4000,
+          8000,
+          16000
+        ]
+      },
+      {
+        "strategy": "dgc_no_dispatch",
+        "budgets": [
+          4000,
+          8000
+        ]
+      },
+      {
+        "strategy": "dgc_no_expansion",
+        "budgets": [
+          4000,
+          8000
+        ]
+      },
+      {
+        "strategy": "dgc_no_ranking",
+        "budgets": [
+          4000,
+          8000
+        ]
+      },
+      {
+        "strategy": "dgc_no_skeleton",
+        "budgets": [
+          4000,
+          8000
+        ]
+      },
+      {
+        "strategy": "dgc_no_reverse",
+        "budgets": [
+          4000,
+          8000
+        ]
+      }
+    ],
+    "items": {},
+    "repeats": 1,
+    "max_output_tokens": 1024,
+    "concurrency": 6
+  },
+  "provenance": {
+    "ccbench_version": "1.0.0",
+    "prompt_version": "p1",
+    "dataset_version": "v1",
+    "dataset_sha256": "5e550060fea81413",
+    "fixture_hash": "8da947b42b62564d",
+    "repo_git_commit": null,
+    "chars_per_token_estimate": 2.35,
+    "python": "3.9.6",
+    "platform": "macOS-13.7.8-x86_64-i386-64bit",
+    "providers": {
+      "claude-haiku-5-5": {
+        "model": "haiku",
+        "temperature": null,
+        "seed": null,
+        "unsupported": [
+          "temperature",
+          "seed"
+        ],
+        "effort": null
+      }
+    },
+    "n_items": 64
+  }
+}
