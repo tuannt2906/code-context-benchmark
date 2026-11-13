@@ -1,0 +1,42 @@
+{
+  "name": "smoke_claude",
+  "_note": "4 items x 3 conditions sanity check.",
+  "dataset_version": "v1",
+  "models": [
+    {
+      "provider": "claude_cli",
+      "model": "haiku",
+      "label": "claude-haiku-5-5",
+      "timeout": 240,
+      "max_retries": 3
+    }
+  ],
+  "conditions": [
+    {
+      "strategy": "oracle"
+    },
+    {
+      "strategy": "dgc",
+      "budgets": [
+        4000
+      ]
+    },
+    {
+      "strategy": "bm25",
+      "budgets": [
+        4000
+      ]
+    }
+  ],
+  "items": {
+    "ids": [
+      "L1-01",
+      "L3-03",
+      "L4-01",
+      "L5-06"
+    ]
+  },
+  "repeats": 1,
+  "max_output_tokens": 1024,
+  "concurrency": 4
+}

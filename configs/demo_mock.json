@@ -1,0 +1,121 @@
+{
+  "name": "demo_mock",
+  "_note": "Offline demo: SIMULATED model, no API key needed.",
+  "dataset_version": "v1",
+  "models": [
+    {
+      "provider": "mock",
+      "model": "mock-recall",
+      "label": "mock",
+      "seed": 0
+    }
+  ],
+  "conditions": [
+    {
+      "strategy": "none"
+    },
+    {
+      "strategy": "oracle"
+    },
+    {
+      "strategy": "full",
+      "budgets": [
+        null,
+        2000,
+        4000,
+        8000,
+        16000
+      ]
+    },
+    {
+      "strategy": "fixed",
+      "budgets": [
+        2000,
+        4000,
+        8000,
+        16000
+      ]
+    },
+    {
+      "strategy": "bm25",
+      "budgets": [
+        2000,
+        4000,
+        8000,
+        16000
+      ]
+    },
+    {
+      "strategy": "bm25_namegraph",
+      "budgets": [
+        2000,
+        4000,
+        8000,
+        16000
+      ]
+    },
+    {
+      "strategy": "dgc",
+      "budgets": [
+        2000,
+        4000,
+        8000,
+        16000
+      ]
+    },
+    {
+      "strategy": "dgc_no_dispatch",
+      "budgets": [
+        4000,
+        8000
+      ]
+    },
+    {
+      "strategy": "dgc_no_expansion",
+      "budgets": [
+        4000,
+        8000
+      ]
+    },
+    {
+      "strategy": "dgc_no_ranking",
+      "budgets": [
+        4000,
+        8000
+      ]
+    },
+    {
+      "strategy": "dgc_no_skeleton",
+      "budgets": [
+        4000,
+        8000
+      ]
+    },
+    {
+      "strategy": "dgc_no_reverse",
+      "budgets": [
+        4000,
+        8000
+      ]
+    }
+  ],
+  "items": {
+    "ids": [
+      "L1-01",
+      "L1-02",
+      "L2-01",
+      "L2-06",
+      "L3-03",
+      "L3-09",
+      "L4-01",
+      "L4-07",
+      "L5-02",
+      "L5-06",
+      "L5-11",
+      "L5-15"
+    ]
+  },
+  "repeats": 1,
+  "max_output_tokens": 1024,
+  "concurrency": 4
+}

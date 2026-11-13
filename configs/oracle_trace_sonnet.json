@@ -1,0 +1,23 @@
+{
+  "name": "oracle_trace_sonnet",
+  "_note": "Exploratory (post hoc): trace-based oracle context.",
+  "dataset_version": "v1",
+  "models": [
+    {
+      "provider": "claude_cli",
+      "model": "sonnet",
+      "label": "claude-sonnet-5-5",
+      "timeout": 300,
+      "max_retries": 3
+    }
+  ],
+  "conditions": [
+    {
+      "strategy": "oracle_trace"
+    }
+  ],
+  "items": {},
+  "repeats": 1,
+  "max_output_tokens": 1024,
+  "concurrency": 6
+}

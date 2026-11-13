@@ -1,0 +1,75 @@
+{
+  "name": "free_qwen7b",
+  "_note": "Free-tier 7B coder control via an OpenAI-compatible endpoint (needs OPENROUTER_API_KEY or edit preset).",
+  "dataset_version": "v1",
+  "models": [
+    {
+      "provider": "openai_compat",
+      "preset": "openrouter",
+      "model": "qwen/qwen-2.5-coder-7b-instruct",
+      "label": "qwen2.5-coder-7b",
+      "temperature": 0.0,
+      "seed": 0,
+      "rpm": 15,
+      "timeout": 180
+    }
+  ],
+  "conditions": [
+    {
+      "strategy": "none"
+    },
+    {
+      "strategy": "oracle"
+    },
+    {
+      "strategy": "full",
+      "budgets": [
+        null,
+        2000,
+        4000,
+        8000,
+        16000
+      ]
+    },
+    {
+      "strategy": "fixed",
+      "budgets": [
+        2000,
+        4000,
+        8000,
+        16000
+      ]
+    },
+    {
+      "strategy": "bm25",
+      "budgets": [
+        2000,
+        4000,
+        8000,
+        16000
+      ]
+    },
+    {
+      "strategy": "bm25_namegraph",
+      "budgets": [
+        2000,
+        4000,
+        8000,
+        16000
+      ]
+    },
+    {
+      "strategy": "dgc",
+      "budgets": [
+        2000,
+        4000,
+        8000,
+        16000
+      ]
+    }
+  ],
+  "items": {},
+  "repeats": 1,
+  "max_output_tokens": 1024,
+  "concurrency": 1
+}

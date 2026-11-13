@@ -1,0 +1,9 @@
+{
+  "_comment": "Pre-registered thresholds (frozen 2026-11-13 before the main run). See docs/research_design.md section 4.",
+  "h1a_support": 0.10,
+  "h1a_refute": 0.03,
+  "h2a_margin": 0.05,
+  "h2b_error": 0.15,
+  "h3a_support": 0.10,
+  "ablation_budgets": [4000, 8000]
+}

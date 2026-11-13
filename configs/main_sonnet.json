@@ -1,0 +1,107 @@
+{
+  "name": "main_sonnet",
+  "_note": "Main grid + ablations, Claude Sonnet 5.5.",
+  "dataset_version": "v1",
+  "models": [
+    {
+      "provider": "claude_cli",
+      "model": "sonnet",
+      "label": "claude-sonnet-5-5",
+      "timeout": 300,
+      "max_retries": 3
+    }
+  ],
+  "conditions": [
+    {
+      "strategy": "none"
+    },
+    {
+      "strategy": "oracle"
+    },
+    {
+      "strategy": "full",
+      "budgets": [
+        null,
+        2000,
+        4000,
+        8000,
+        16000
+      ]
+    },
+    {
+      "strategy": "fixed",
+      "budgets": [
+        2000,
+        4000,
+        8000,
+        16000
+      ]
+    },
+    {
+      "strategy": "bm25",
+      "budgets": [
+        2000,
+        4000,
+        8000,
+        16000
+      ]
+    },
+    {
+      "strategy": "bm25_namegraph",
+      "budgets": [
+        2000,
+        4000,
+        8000,
+        16000
+      ]
+    },
+    {
+      "strategy": "dgc",
+      "budgets": [
+        2000,
+        4000,
+        8000,
+        16000
+      ]
+    },
+    {
+      "strategy": "dgc_no_dispatch",
+      "budgets": [
+        4000,
+        8000
+      ]
+    },
+    {
+      "strategy": "dgc_no_expansion",
+      "budgets": [
+        4000,
+        8000
+      ]
+    },
+    {
+      "strategy": "dgc_no_ranking",
+      "budgets": [
+        4000,
+        8000
+      ]
+    },
+    {
+      "strategy": "dgc_no_skeleton",
+      "budgets": [
+        4000,
+        8000
+      ]
+    },
+    {
+      "strategy": "dgc_no_reverse",
+      "budgets": [
+        4000,
+        8000
+      ]
+    }
+  ],
+  "items": {},
+  "repeats": 1,
+  "max_output_tokens": 1024,
+  "concurrency": 6
+}
