@@ -1,0 +1,20 @@
+# secrets / local config
+.env
+.env.*
+!.env.example
+
+# python caches
+__pycache__/
+*.pyc
+
+# run logs contain absolute local paths -> not published
+results/*.log
+*.log
+
+# combined analysis: raw records are a duplicate (rebuild with `python3 -m ccbench combine`); keep only its report
+results/combined_*/results.jsonl
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
